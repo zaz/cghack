@@ -7,13 +7,14 @@ DAY = 60 * 60 * 24
 
 # Pixel darkness in hexadecimal. Try to keep the total value low (< ~1000).
 IMAGE="\
-     777        77               7 7   77          
-    7          7  7              7 7  7  7         
-    777   7 7  7  7  7777 7777  7  7     7         
-    7  7   7    777             77777   7          
-    7  7  7 7     7  7777 7777     7   7           
-     77        777                 7  7777         
-                                                   "
+                                                   
+     8 8 8 8 888                                   
+     8 8 8                                         
+     8 8 8 2 8                                     
+     8 8 8 2 8                                     
+     8   8 2 8                                     
+     8   8 2 8                                     "
+
 
 image = IMAGE.split("\n").map { |r| r.split('') }
 image = image.transpose.flatten.map { |d| d.to_i(16) }
