@@ -8,12 +8,12 @@ DAY = 60 * 60 * 24
 # Pixel darkness in hexadecimal. Try to keep the total value low (< ~1000).
 IMAGE="\
                                                    
-            88     88                              
-             88   88                               
-             8 8 8 8                               
-             8  8  8                               
-             8     8                               
-            888   888                              "
+             11     11                             
+              11   11                              
+              1 1 1 1                              
+              1  1  1                              
+              1     1                              
+             111   111                             "
 
 
 image = IMAGE.split("\n").map { |r| r.split('') }
